@@ -22,9 +22,9 @@
 
   /*Fontes*/
   --font-family-title: "Asap", sans-serif;
-  --title-lg: 800 56px/120% var(--font-family-title);
-  --title-md: 800 24px/120% var(--font-family-title);
-  --title-sm: 800 16px/120% var(--font-family-title);
+  --title-lg: 600 56px/120% var(--font-family-title);
+  --title-md: 600 24px/120% var(--font-family-title);
+  --title-sm: 600 16px/120% var(--font-family-title);
 
   --font-family-subtitle: "Inconsolata", sans-serif;
   --subtitle: 400 20px/120% var(--font-family-subtitle);
@@ -38,13 +38,20 @@ body {
   font: var(--text-md);
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+.container {
+  max-width: 1366px;
+  padding-inline: 163px;
+  margin-inline: auto;
 }
 
-h1,
-h2,
-h3 {
-  font: inherit;
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
 }
