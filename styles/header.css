@@ -1,11 +1,11 @@
-header {
+#intro {
   background-image: url("../assets/Background_Intro.png");
   background-repeat: none;
   background-size: cover;
   text-align: center;
 
   padding-top: 120px;
-  padding-bottom: 57px;
+  padding-bottom: 94px;
 }
 
 #info {
@@ -29,7 +29,6 @@ header {
 
   #tags {
     margin-top: 80px;
-    margin-bottom: 94px;
 
     ul {
       display: flex;
